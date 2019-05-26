@@ -1,0 +1,12 @@
+A=5 | B=9 | C=14 | D=19
+<start T1>
+<T1,A,6>
+<start T2>
+<Commit T1>
+<T2,B,10>
+<Start CKPT(T2)>
+<T2,C,15>
+<start T3>
+<T3,D,20>
+<END CKPT>
+
